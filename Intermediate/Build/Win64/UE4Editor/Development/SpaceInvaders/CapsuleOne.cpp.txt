@@ -1,0 +1,1 @@
+C:\Users\RICARDO\source\REPOS2\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h

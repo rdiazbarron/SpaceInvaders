@@ -1,0 +1,9 @@
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\ComidaGenerador.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\ComidaGenerador.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Comida.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Comida.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\ComidaAdapter.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\CrearComida.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\CrearComida.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\ComidaAdapter.generated.h

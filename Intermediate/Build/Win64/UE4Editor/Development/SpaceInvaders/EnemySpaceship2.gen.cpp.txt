@@ -1,0 +1,7 @@
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders/EnemySpaceship2.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Spaceship.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Spaceship.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\EnemySpaceship2.generated.h

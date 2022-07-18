@@ -1,0 +1,174 @@
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/Bomb.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Bomb.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Projectile.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Projectile.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Bomb.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\EnemySpaceship2.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Spaceship.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Spaceship.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\EnemySpaceship2.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\EnemyProjectile.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\EnemyProjectile.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/CapsuleMovementComponent.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\CapsuleMovementComponent.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\CapsuleMovementComponent.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/EnemyProjectile.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\MyFlyingSpaceship.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\InventoryComponent2.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Kapsule.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Kapsule.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\InventoryActor.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\InventoryActor.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\InventoryComponent2.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\MySubscribers.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\MySubscribers.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\MyFlyingSpaceship.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/EnemySpaceship2.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\RandomMovementComponent.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\RandomMovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/GeneratorKapsule.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\GeneratorKapsule.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\GeneratorKapsule.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/GeneratorKapsule1.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\GeneratorKapsule1.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\GeneratorKapsule1.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/GeneratorKapsuleConcrete1.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\GeneratorKapsuleConcrete1.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\GeneratorKapsuleConcrete1.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\KapsuleSpeed.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\KapsuleSpeed.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\KapsuleGun.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\KapsuleGun.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\KapsuleMultiGun.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\KapsuleMultiGun.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/InventoryActor.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/InventoryComponent2.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/Kapsule.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/KapsuleGun.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/KapsuleMultiGun.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/KapsuleSpeed.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/KapsuleWormHole.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\KapsuleWormHole.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\KapsuleWormHole.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/Mothership.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Mothership.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Mothership.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/MyFlyingSpaceship.cpp
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/MyInterface.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/MyPublisher.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/MyShip.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/MySubscribers.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/NaveDirector.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\NaveDirector.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\NaveEnemigaBuilder.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\NaveEnemigaProductoBase.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\NaveEnemigaProductoBase.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\NaveEnemigaBuilder.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\NaveDirector.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/NaveEnemigaBuilder.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/NaveEnemigaEspecializada.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\NaveEnemigaEspecializada.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\NaveEnemigaEspecializada.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/NaveEnemigaProductoBase.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/Obs_Enemigo.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Obs_Enemigo.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Obs_Tareas.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Obs_Tareas.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Obs_Enemigo.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/Obs_Tareas.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/Projectile.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/ProjectileBuilder.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/RandomMovementComponent.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/SpaceInvaders.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\SpaceInvaders.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/SpaceInvadersGameModeBase.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\SpaceInvadersGameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\SpaceInvadersGameModeBase.generated.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\iostream
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\istream
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\ostream
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\ios
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocnum
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\cmath
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\cstdio
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\iterator
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\iosfwd
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\cwchar
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\streambuf
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\system_error
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\__msvc_system_error_abi.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\cerrno
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\stdexcept
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xstring
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xmemory
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\limits
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\cfloat
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\isa_availability.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xcall_once.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xerrc.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocale
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\memory
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xfacet
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xlocinfo
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\__msvc_xlocinfo_types.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\cctype
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\random
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\algorithm
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\vector
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE\xbit_ops.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\T_FreakyAllen.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\T_Subscriber.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\T_Subscriber.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\T_Changes.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\T_Changes.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\T_FreakyAllen.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\T_ClockTower.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\T_Publisher.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\T_Publisher.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\T_ClockTower.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/Spaceship.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/SpawnVolume.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\SpawnVolume.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\SpawnVolume.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/Subscriber.cpp
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Subscriber.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Subscriber.generated.h
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/T_Changes.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/T_ClockTower.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/T_FreakyAllen.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/T_Publisher.cpp
+C:/Users/RICARDO/source/repos/SpaceInvaders/Source/SpaceInvaders/T_Subscriber.cpp

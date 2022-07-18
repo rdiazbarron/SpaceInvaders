@@ -1,0 +1,21 @@
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders/NaveEnemigaEspecializada.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Projectile.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Projectile.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\NaveEnemigaBuilder.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\NaveEnemigaProductoBase.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\RandomMovementComponent.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\RandomMovementComponent.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\NaveEnemigaProductoBase.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\NaveEnemigaBuilder.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\NaveEnemigaEspecializada.generated.h

@@ -1,0 +1,11 @@
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\StateResignacion.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\State.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\State.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\StateResignacion.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\StateEnemigo.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\StateEnemigo.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\EnemyProjectile.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Projectile.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Projectile.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\EnemyProjectile.generated.h

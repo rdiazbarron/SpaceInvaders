@@ -1,0 +1,3 @@
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\GeneratorSpeedKapsule1.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\GeneratorSpeedKapsule1.generated.h

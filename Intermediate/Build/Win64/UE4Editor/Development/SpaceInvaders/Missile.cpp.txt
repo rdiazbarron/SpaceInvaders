@@ -1,0 +1,9 @@
+C:\Users\RICARDO\source\REPOS2\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:\Users\RICARDO\source\REPOS2\SpaceInvaders\Source\SpaceInvaders\Missile.h
+C:\Users\RICARDO\source\REPOS2\SpaceInvaders\Source\SpaceInvaders\Projectile.h
+C:\Users\RICARDO\source\REPOS2\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Projectile.generated.h
+C:\Users\RICARDO\source\REPOS2\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Missile.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h

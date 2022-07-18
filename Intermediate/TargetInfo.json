@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SpaceInvaders",
+			"Path": "C:\\Users\\RICARDO\\source\\repos\\SpaceInvaders\\Source\\SpaceInvaders.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SpaceInvadersEditor",
+			"Path": "C:\\Users\\RICARDO\\source\\repos\\SpaceInvaders\\Source\\SpaceInvadersEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

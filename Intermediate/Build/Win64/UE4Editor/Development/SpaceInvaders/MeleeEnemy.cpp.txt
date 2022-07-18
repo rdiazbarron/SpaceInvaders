@@ -1,0 +1,7 @@
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\MeleeEnemy.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\EnemyDecorator.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\Enemy.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\Enemy.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\EnemyDecorator.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\MeleeEnemy.generated.h

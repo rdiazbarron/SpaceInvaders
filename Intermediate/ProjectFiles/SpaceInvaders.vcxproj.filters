@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SpaceInvaders.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6E6F3494-2137-413C-9CAC-9439E54CDAE7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceInvaders.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpaceInvadersEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\Direccion GitHub.txt" />
+    <None Include="..\..\Source.rar" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{83831769-92AB-4999-8F7A-5FB372008ACD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SpaceInvaders">
+      <UniqueIdentifier>{7F2B9BEB-A960-4DB0-A484-758AE1FB258F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpaceInvaders\Bomb.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\Bomb.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\CapsuleMovementComponent.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\CapsuleMovementComponent.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\EnemyProjectile.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\EnemyProjectile.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\EnemySpaceship2.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\EnemySpaceship2.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\GeneratorKapsule.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\GeneratorKapsule.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\GeneratorKapsule1.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\GeneratorKapsule1.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\GeneratorKapsuleConcrete1.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\GeneratorKapsuleConcrete1.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\InventoryActor.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\InventoryActor.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\InventoryComponent2.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\InventoryComponent2.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\Kapsule.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\Kapsule.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\KapsuleGun.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\KapsuleGun.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\KapsuleMultiGun.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\KapsuleMultiGun.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\KapsuleSpeed.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\KapsuleSpeed.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\KapsuleWormHole.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\KapsuleWormHole.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\Mothership.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\Mothership.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\MyFlyingSpaceship.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\MyFlyingSpaceship.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\MyInterface.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\MyInterface.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\MyPublisher.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\MyPublisher.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\MyShip.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\MyShip.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\MySubscribers.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\MySubscribers.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\NaveDirector.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\NaveDirector.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\NaveEnemigaBuilder.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\NaveEnemigaBuilder.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\NaveEnemigaEspecializada.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\NaveEnemigaEspecializada.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\NaveEnemigaProductoBase.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\NaveEnemigaProductoBase.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\Obs_Enemigo.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\Obs_Enemigo.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\Obs_Tareas.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\Obs_Tareas.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\Projectile.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\Projectile.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\ProjectileBuilder.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\ProjectileBuilder.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\RandomMovementComponent.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\RandomMovementComponent.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SpaceInvaders\SpaceInvaders.Build.cs">
+      <Filter>Source\SpaceInvaders</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpaceInvaders\SpaceInvaders.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\SpaceInvaders.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\SpaceInvadersGameModeBase.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\SpaceInvadersGameModeBase.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\Spaceship.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\Spaceship.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\SpawnVolume.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\SpawnVolume.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\Subscriber.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\Subscriber.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\T_Changes.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\T_Changes.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\T_ClockTower.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\T_ClockTower.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\T_FreakyAllen.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\T_FreakyAllen.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\T_Publisher.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\T_Publisher.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceInvaders\T_Subscriber.cpp">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceInvaders\T_Subscriber.h">
+      <Filter>Source\SpaceInvaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

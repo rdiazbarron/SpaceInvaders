@@ -1,0 +1,7 @@
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Definitions.SpaceInvaders.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\T_ClockTower.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\T_Publisher.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Source\SpaceInvaders\T_Subscriber.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\T_Subscriber.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\T_Publisher.generated.h
+C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Inc\SpaceInvaders\T_ClockTower.generated.h

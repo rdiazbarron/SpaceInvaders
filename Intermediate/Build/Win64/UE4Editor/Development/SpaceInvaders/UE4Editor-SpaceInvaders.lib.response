@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SpaceInvaders.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\SpaceInvadersEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Module.SpaceInvaders.cpp.obj"
+"C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Module.SpaceInvaders.gen.cpp.obj"
+"C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\Default.rc2.res"
+/OUT:"C:\Users\RICARDO\source\repos\SpaceInvaders\Intermediate\Build\Win64\UE4Editor\Development\SpaceInvaders\UE4Editor-SpaceInvaders.lib"
