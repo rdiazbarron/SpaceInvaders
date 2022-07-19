@@ -86,7 +86,7 @@ public: //Methods
 
 public:
 
-	FString Accion="uno";
+	FString Accion = "Atacando";
 	int var = 15;
 public:
 
@@ -116,6 +116,6 @@ public:
 	void CambiarAccion();
 	//Establecer la hora de esta Torre del Reloj
 	void setCambiarAccion(FString miAccion);
-	FORCEINLINE FString GetAccion() { return Accion; };
-	
+	FString GetAccionNombre() { return Accion; };
+	bool Value = true;
 };

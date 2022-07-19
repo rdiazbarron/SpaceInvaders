@@ -31,7 +31,7 @@ public:
 private:
 
 	UPROPERTY()
-		AMyFlyingSpaceship* ControlTower;
+		class AMyFlyingSpaceship* ControlTower;
 
 protected:
 	// Called when the game starts or when spawned

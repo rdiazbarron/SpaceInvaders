@@ -21,7 +21,7 @@ AObs_Enemigo::AObs_Enemigo()
 	DistanceShoot = FVector(100.f, 0.f, 0.f);
 	TimeToSpawnShoot = 2.f;
 	ShootTime = 0;
-	Accion = "minicartero";
+	Accion = "no";
 }
 
 // Called when the game starts or when spawned
@@ -52,23 +52,28 @@ void AObs_Enemigo::Update(class AMyFlyingSpaceship* AMyFlyingSpaceshipPublisher)
 	Tareas();
 }
 
-
 void AObs_Enemigo::Tareas()
 {
-	if (!ControlTower) {
-		UE_LOG(LogTemp, Error, TEXT("Acciones(): TorreDeControl is NULL, asegúrese de que esté inicializado."));
+	if (!ControlTower) 
+	{
+		UE_LOG(LogTemp, Error, TEXT("setTorreControl(): TorreDeControl is NULL, asegúrese de que esté inicializado."));
 		return;
+
 	}
-	//Obtener la hora actual de la Torre del Reloj
-	Accion = ControlTower->GetAccion();
+	Accion = ControlTower->GetAccionNombre();
+
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, FString::Printf(TEXT("accion: %s "),*Accion));
+
 }
+
 
 void AObs_Enemigo::setTorreControl(class AMyFlyingSpaceship* _ControlTower)
 {
 	//Error de registro si la torre del reloj aprobada es NULL
-	if (!ControlTower) {
+	if (!_ControlTower) {
 		UE_LOG(LogTemp, Error, TEXT("setTorreControl(): TorreDeControl is NULL, asegúrese de que esté inicializado."));
 		return;
+
 	}
 	//Configura la torre del reloj y suscríbete a eso
 	ControlTower = _ControlTower;

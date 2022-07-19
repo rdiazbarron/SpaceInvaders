@@ -43,6 +43,8 @@ AMyFlyingSpaceship::AMyFlyingSpaceship()
 	MyItems.Add("Combustible", 0);
 	MyItems.Add("Velocidad", 0);
 	MyItems.Add("Bomba", 0);
+
+	Accion = "Atacando";
 	
 }
 
@@ -95,8 +97,12 @@ void AMyFlyingSpaceship::Tick(float DeltaSeconds)
 		}
 	}
 
+	if (Value == true)
+	{
+		
+		Value = false;
+	}
 	
-		setCambiarAccion("Movimiento");
 	
 		
 
@@ -336,5 +342,7 @@ void AMyFlyingSpaceship::BeginPlay()
 	ValueShoot = 0.f;
 	//AEnemySpaceship2* NaveRef = GetWorld()->SpawnActor<AEnemySpaceship2>(AEnemySpaceship2::StaticClass());
 	//Subscribers.Add(NaveRef);
+
+	setCambiarAccion("Atacando");
 }
 

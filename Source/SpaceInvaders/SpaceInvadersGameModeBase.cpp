@@ -79,7 +79,7 @@ void ASpaceInvadersGameModeBase::BeginPlay()
 
 	//////-------------- PATRON  OBSERVER
 	//Engendra la Torre de control
-	const FVector LocationPlayer0 = FVector(120.f, 50.f, 50.f);
+	const FVector LocationPlayer0 = FVector(-200.f, 100.f, 50.f);
 	const FRotator RotationPlayer0 = FRotator(0.f, 0.f, 0.f);
 
 	AMyFlyingSpaceship* NaveJugador = GetWorld()->SpawnActor<AMyFlyingSpaceship>(LocationPlayer0, RotationPlayer0);
@@ -88,7 +88,7 @@ void ASpaceInvadersGameModeBase::BeginPlay()
 	const FVector LocationEnemy1 = FVector(-300.f, -300.f, 50.f);
 	const FRotator RotationEnemy1 = FRotator(0.f, 0.f, 0.f);
 
-	//AObs_Enemigo* NaveEnemigaPO1 = GetWorld()->SpawnActor<AObs_Enemigo>(LocationEnemy1, RotationEnemy1);
+	AObs_Enemigo* NaveEnemigaPO1 = GetWorld()->SpawnActor<AObs_Enemigo>(LocationEnemy1, RotationEnemy1);
 
 	const FVector LocationEnemy2 = FVector(-150.f, -150.f, 50.f);
 	const FRotator RotationEnemy2 = FRotator(0.f, 0.f, 0.f);
@@ -96,7 +96,7 @@ void ASpaceInvadersGameModeBase::BeginPlay()
 	//AObs_Enemigo* NaveEnemigaPO2 = GetWorld()->SpawnActor<AObs_Enemigo>(LocationEnemy2, RotationEnemy2);
 	//NaveJugador->Subscribe(NaveEnemigaPO1);
 	//NaveJugador->Subscribe(NaveEnemigaPO2);
-	//NaveEnemigaPO1->setTorreControl(NaveJugador);
+	NaveEnemigaPO1->setTorreControl(NaveJugador);
 	//NaveEnemigaPO2->setTorreControl(NaveJugador);
 	//NaveJugador->Subscribe(NaveEnemigaPO1);
 	
