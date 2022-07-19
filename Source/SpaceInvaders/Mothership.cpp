@@ -13,12 +13,13 @@
 
 AMothership::AMothership()
 {
-	RandMove = CreateDefaultSubobject<URandomMovementComponent>(TEXT("RandomMovement3"));
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	
 	PrimaryActorTick.bCanEverTick = true;
+
+	RandMove = CreateDefaultSubobject<URandomMovementComponent>(TEXT("RandomMovement30"));
+
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> MothershipMesh(TEXT("/Game/TwinStick/Meshes/TwinStickUFO.TwinStickUFO"));
 	BulletSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("BulletSpawnPoint3"));
-	//BulletSpawnPoint->SetupAttachment(RootComponent);
 
 	MothershipMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mothership"));
 	MothershipMeshComponent->SetStaticMesh(MothershipMesh.Object);
@@ -26,31 +27,26 @@ AMothership::AMothership()
 	RootComponent = MothershipMeshComponent;
 	SetActorScale3D(FVector(2.0f, 2.0f, 2.0f));
 
-	//MoveSpeed = 1.f;
-	TimeElapsed = 0;//
-	//GunOffset = FVector(90.f, 0.f, 0.f);
-	FireRate = 5.0f;//
-	bCanFire = false;//
+	
+	TimeElapsed = 0;
+
+	FireRate = 5.0f;
+	bCanFire = false;
 	SetActorEnableCollision(false);
-	//MoveDirection = FVector(-1, 0, 0);
+
 
 	GunOffset1 = FVector(100.f, 0.f, 0.f);
 	GunOffset2 = FVector(100.f, 50.f, 0.f);
 	GunOffset3 = FVector(100.f, 100.f, 0.f);
 	GunOffset4 = FVector(100.f, -50.f, 0.f);
 	GunOffset5 = FVector(100.f, -100.f, 0.f);
-	//InitialLifeSpan = 3;
+
 	
 
 }
 
 void AMothership::FireShot()
 {
-	/*FRotator FireRotation = GetActorRotation();
-
-	FireRotation.Yaw = 180.f;
-
-	FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(GunOffset);*/
 
 	UWorld* const World = GetWorld();
 	if (World != nullptr) {

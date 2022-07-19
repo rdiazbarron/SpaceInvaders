@@ -70,11 +70,7 @@ public:
 
 	/*UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		float MoveSpeed;*/
-	FVector DistanceShoot1;
-	FVector DistanceShoot2;
-	FVector DistanceShoot3;
-	FVector DistanceShoot4;
-	FVector DistanceShoot5;
+	
 	//FVector MoveDirection;
 
 	
