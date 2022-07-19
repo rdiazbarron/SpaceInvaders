@@ -11,16 +11,12 @@ AKapsuleSpeed::AKapsuleSpeed()
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> KapsuleM2(TEXT("/Game/TwinStick/Meshes/SM_Ball.SM_Ball"));
 	KapsuleMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("KAPSULE2"));
-	//KapsuleMeshComponent->SetStaticMesh(KapsuleM2.Object);
-	//RootComponent = KapsuleMeshComponent;
 	KapsuleMeshComponent->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
 	KapsuleMeshComponent->SetupAttachment(RootComponent);
 
 	//static ConstructorHelpers::FObjectFinder<UMaterial> KapsuleMaterial2(TEXT("/Game/Materials/Background_01_Mat.Background_01_Mat"));
 	//KapsuleMeshComponent->GetStaticMesh()->SetMaterial(0, KapsuleMaterial2.Object);
 
-	/*RootComponent = KapsuleMeshComponent;
-	SetActorScale3D(FVector(2.5f, 2.5f, 2.5f));*/
 	SetActorScale3D(FVector(5.f, 5.f, 5.f));
 }
 

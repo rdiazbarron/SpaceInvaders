@@ -11,9 +11,6 @@ AKapsuleMultiGun::AKapsuleMultiGun()
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> KapsuleM2(TEXT("/Game/TwinStick/Meshes/SM_Ball.SM_Ball"));
 	KapsuleMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("KAPSULE3"));
-	//KapsuleMeshComponent->SetStaticMesh(KapsuleM2.Object);
-	//KapsuleMeshComponent->SetupAttachment(RootComponent);
-	//RootComponent = KapsuleMeshComponent;
 	KapsuleMeshComponent->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
 	KapsuleMeshComponent->SetupAttachment(RootComponent);
 	SetActorScale3D(FVector(5.f, 5.f, 5.f));

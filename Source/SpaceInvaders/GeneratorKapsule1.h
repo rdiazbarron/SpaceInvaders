@@ -13,7 +13,7 @@ class SPACEINVADERS_API AGeneratorKapsule1 : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
+	
 	AGeneratorKapsule1();
 
 	virtual AKapsule* FabricarCapsula(FString NameTypeKapsule) PURE_VIRTUAL(AGeneratorKapsule::FabricarCapsula, return nullptr;);

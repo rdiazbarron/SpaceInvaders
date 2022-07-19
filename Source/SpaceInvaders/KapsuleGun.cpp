@@ -11,15 +11,11 @@ AKapsuleGun::AKapsuleGun()
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> KapsuleM1(TEXT("/Game/TwinStick/Meshes/SM_Ball.SM_Ball"));
 	KapsuleMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("KAPSULE1"));
-	//KapsuleMeshComponent->SetStaticMesh(KapsuleM1.Object);
-	//KapsuleMeshComponent->SetupAttachment(RootComponent);
-	//RootComponent = KapsuleMeshComponent;
 	KapsuleMeshComponent->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
 	KapsuleMeshComponent->SetupAttachment(RootComponent);
 	//static ConstructorHelpers::FObjectFinder<UMaterial> KapsuleMaterial1(TEXT("/Game/Materials/m_LaserBolt.m_LaserBolt"));
 	//KapsuleMeshComponent->GetStaticMesh()->SetMaterial(0, KapsuleMaterial1.Object);
 
-	//RootComponent = KapsuleMeshComponent;
 	SetActorScale3D(FVector(5.f, 5.f, 5.f));
 }
 
