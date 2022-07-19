@@ -62,7 +62,7 @@ void AObs_Enemigo::Tareas()
 	}
 	Accion = ControlTower->GetAccionNombre();
 
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, FString::Printf(TEXT("accion: %s "),*Accion));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, FString::Printf(TEXT("accion: %s "),Accion));
 
 }
 
@@ -70,10 +70,10 @@ void AObs_Enemigo::Tareas()
 void AObs_Enemigo::setTorreControl(class AMyFlyingSpaceship* _ControlTower)
 {
 	//Error de registro si la torre del reloj aprobada es NULL
-	if (!_ControlTower) {
+	if (!_ControlTower)
+	{
 		UE_LOG(LogTemp, Error, TEXT("setTorreControl(): TorreDeControl is NULL, asegúrese de que esté inicializado."));
 		return;
-
 	}
 	//Configura la torre del reloj y suscríbete a eso
 	ControlTower = _ControlTower;
@@ -84,7 +84,7 @@ void AObs_Enemigo::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (!Accion.Compare("Estatico"))
+	if (!Accion.Compare("Quieto"))
 	{
 		// jugador no se mueve
 		const FVector MoveDirection = FVector(0.f, 0.f, 0.f);
@@ -112,7 +112,7 @@ void AObs_Enemigo::Tick(float DeltaTime)
 		}
 	}
 
-	if (!Accion.Compare("Atacando"))
+	if (!Accion.Compare("Disparando"))
 	{
 		// jugador dispara
 		srand(time(NULL));
@@ -142,10 +142,3 @@ void AObs_Enemigo::Tick(float DeltaTime)
 		}
 	}
 }
-// Called to bind functionality to input
-//void AObs_Enemigo::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-//{
-//	Super::SetupPlayerInputComponent(PlayerInputComponent);
-//
-//}
-

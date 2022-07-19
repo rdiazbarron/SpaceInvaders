@@ -72,40 +72,27 @@ void ASpaceInvadersGameModeBase::BeginPlay()
 	//AMothership* M4 = ASpaceInvadersGameModeBase::GetUniqueEnemyMothership();
 	// 
 	
-		
-	const FVector LocationA = FVector(-300, -300, 50);
-	const FRotator RotationX = FRotator(0, 45, 0);
 
-
-	//////-------------- PATRON  OBSERVER
-	//Engendra la Torre de control
+	//-------------- PATRON  OBSERVER-----------------------//
+	//Engendra la Torre de control(Mi nave)
 	const FVector LocationPlayer0 = FVector(-200.f, 100.f, 50.f);
 	const FRotator RotationPlayer0 = FRotator(0.f, 0.f, 0.f);
 
-	AMyFlyingSpaceship* NaveJugador = GetWorld()->SpawnActor<AMyFlyingSpaceship>(LocationPlayer0, RotationPlayer0);
+	AMyFlyingSpaceship* MiNaveJugador = GetWorld()->SpawnActor<AMyFlyingSpaceship>(LocationPlayer0, RotationPlayer0);
 
-	//Engendra el primer Suscriptor (enemigo1) y establece su Torre de control
 	const FVector LocationEnemy1 = FVector(-300.f, -300.f, 50.f);
 	const FRotator RotationEnemy1 = FRotator(0.f, 0.f, 0.f);
 
-	AObs_Enemigo* NaveEnemigaPO1 = GetWorld()->SpawnActor<AObs_Enemigo>(LocationEnemy1, RotationEnemy1);
-
-	const FVector LocationEnemy2 = FVector(-150.f, -150.f, 50.f);
-	const FRotator RotationEnemy2 = FRotator(0.f, 0.f, 0.f);
-
-	//AObs_Enemigo* NaveEnemigaPO2 = GetWorld()->SpawnActor<AObs_Enemigo>(LocationEnemy2, RotationEnemy2);
-	//NaveJugador->Subscribe(NaveEnemigaPO1);
-	//NaveJugador->Subscribe(NaveEnemigaPO2);
-	NaveEnemigaPO1->setTorreControl(NaveJugador);
-	//NaveEnemigaPO2->setTorreControl(NaveJugador);
-	//NaveJugador->Subscribe(NaveEnemigaPO1);
+	AObs_Enemigo* NaveEnemigaObserver = GetWorld()->SpawnActor<AObs_Enemigo>(LocationEnemy1, RotationEnemy1);
+	NaveEnemigaObserver->setTorreControl(MiNaveJugador);
+	
 	
 	//------------------------------------------------------------------------------------
 
 
 	
 }
-//---------------------Patron Factory Method-------------------------//
+//---------------------PATRON FACTORY METHOD-------------------------//
 void ASpaceInvadersGameModeBase::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);

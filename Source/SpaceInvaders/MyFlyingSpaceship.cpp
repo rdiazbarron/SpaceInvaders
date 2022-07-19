@@ -44,7 +44,7 @@ AMyFlyingSpaceship::AMyFlyingSpaceship()
 	MyItems.Add("Velocidad", 0);
 	MyItems.Add("Bomba", 0);
 
-	Accion = "Atacando";
+	Accion = "minicartero";
 	
 }
 
@@ -97,35 +97,22 @@ void AMyFlyingSpaceship::Tick(float DeltaSeconds)
 		}
 	}
 
-	if (Value == true)
+	if (Movement.SizeSquared() > 0.0f)
 	{
-		
-		Value = false;
+		setCambiarAccion("Movimiento");
+	}
+	if (Movement.SizeSquared() == 0.0f)
+	{
+		setCambiarAccion("Quieto");
+	}
+	if (BulletCount > 2) {
+		setCambiarAccion("Disparando");
+		BulletCount = BulletCount - DeltaSeconds;
 	}
 	
-	
-		
 
-
-	//if (var == 15)
-	//{
-	//	//valueMovement = false;
-	//	setCambiarAccion("Movimiento");
-	//	//NotifySubscribers();
-	//}
-	//if (valueMovement == false)
-	//{
-	//	//valueMovement = true;
-	//	setCambiarAccion("Movimiento");
-	//	//NotifySubscribers();
-	//}
-
-	// jugador dispara
-	/*if (ValueShoot >= 0.f) {
-		ValueShoot = ValueShoot - DeltaSeconds;
-		setCambiarAccion("Atacando");
-	}*/
 	//Fire();
+
 }
 
 void AMyFlyingSpaceship::ShotTimerExpired()
@@ -303,11 +290,11 @@ void AMyFlyingSpaceship::FireShot(FVector FireDirection)
 				FireRotation.Yaw = -30.f;
 				SpawnLocation = GetActorLocation() + FireRotation.RotateVector(GunOffset);
 				World->SpawnActor<ABomb>(SpawnLocation, FireRotation);
-
+				BulletCount += 3.0f;
 			}
 			bCanFire = false;
 			GetWorld()->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &AMyFlyingSpaceship::ShotTimerExpired, FireRate, true);
-			ValueShoot = ValueShoot + 1.5f;
+			
 
 		}
 	}
@@ -323,6 +310,7 @@ void AMyFlyingSpaceship::FireShot(FVector FireDirection)
 			if (World != nullptr)
 			{
 				World->SpawnActor<ABomb>(SpawnLocation, FireRotation);
+				BulletCount += 1.0f;
 				
 			}
 			bCanFire = false;
@@ -336,13 +324,9 @@ void AMyFlyingSpaceship::FireShot(FVector FireDirection)
 void AMyFlyingSpaceship::BeginPlay()
 {
 	Super::BeginPlay();
-	// tomamos la ubicacion actual de la nave jugador
-	//Current_Location = this->GetActorLocation();
+
 	valueMovement = false;
 	ValueShoot = 0.f;
-	//AEnemySpaceship2* NaveRef = GetWorld()->SpawnActor<AEnemySpaceship2>(AEnemySpaceship2::StaticClass());
-	//Subscribers.Add(NaveRef);
-
-	setCambiarAccion("Atacando");
+	
 }
 

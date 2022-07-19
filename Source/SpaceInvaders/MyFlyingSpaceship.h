@@ -86,7 +86,7 @@ public: //Methods
 
 public:
 
-	FString Accion = "Atacando";
+	FString Accion="uno";
 	int var = 15;
 public:
 
@@ -102,6 +102,8 @@ public:
 	float FireForwardValue;
 	
 	float FireRightValue;
+
+	float BulletCount;
 
 
 public:
