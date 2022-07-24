@@ -17,14 +17,14 @@ public:
 	// Sets default values for this pawn's properties
 	ANaveEnemigaProductoBase();
 
-	UPROPERTY(EditAnywhere, Category = " Nave enemiga patron builder")
+	UPROPERTY(EditAnywhere, Category = " Nave builder")
 		UStaticMeshComponent* MeshEnemigo;
 
-	UPROPERTY(EditAnywhere, Category = " Nave enemiga patron builder")
+	UPROPERTY(EditAnywhere, Category = " Nave builder")
 		USceneComponent* PuntoGeneracionBala;
 
-	UPROPERTY(EditAnywhere, Category = " Nave enemiga patron builder")
-		URandomMovementComponent* MovimientoNave;
+	UPROPERTY(EditAnywhere, Category = " Nave builder")
+		URandomMovementComponent* MovimientoEnemigo;
 
 	//al ser metodos se pueden devolver metodos?
 
@@ -40,7 +40,7 @@ public:
 		PuntoGeneracionBala = _PuntoGeneracionBala;
 	}
 	void SetMovimiento(URandomMovementComponent* _RandomMovementComponent) {
-		MovimientoNave = _RandomMovementComponent;
+		MovimientoEnemigo = _RandomMovementComponent;
 	}
 	//// Called every frame
 	//virtual void Tick(float DeltaTime) override;

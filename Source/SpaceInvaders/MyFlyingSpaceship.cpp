@@ -22,7 +22,7 @@ AMyFlyingSpaceship::AMyFlyingSpaceship()
 	SetActorScale3D(FVector(0.75f, 0.75f, 0.75f));
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 	MoveSpeed = 1000.0f;
-	Energy = 100.0f;
+
 	GunOffset = FVector(90.f, 0.f, 0.f);
 	GunOffset2 = FVector(200.f, 0.f, 0.f);
 	FireRate = 1.1f;
@@ -40,10 +40,7 @@ AMyFlyingSpaceship::AMyFlyingSpaceship()
 	MyShipInventory = CreateDefaultSubobject<UInventoryComponent2>("MyInventory");
 	valueMovement = false;
 	MyItems.Add("Vida", 0);
-	MyItems.Add("Combustible", 0);
-	MyItems.Add("Velocidad", 0);
-	MyItems.Add("Bomba", 0);
-
+	
 	Accion = "minicartero";
 	
 }

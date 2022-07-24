@@ -18,6 +18,7 @@
 #include "Obs_Enemigo.h"
 #include "T_FreakyAllen.h"
 #include "T_ClockTower.h"
+#include "Str_EludeStrategy.h"
 
 
 
@@ -80,16 +81,21 @@ void ASpaceInvadersGameModeBase::BeginPlay()
 
 	AMyFlyingSpaceship* MiNaveJugador = GetWorld()->SpawnActor<AMyFlyingSpaceship>(LocationPlayer0, RotationPlayer0);
 
-	const FVector LocationEnemy1 = FVector(-300.f, -300.f, 50.f);
+	//const FVector LocationEnemy1 = FVector(-300.f, -300.f, 50.f);
+	//const FRotator RotationEnemy1 = FRotator(0.f, 0.f, 0.f);
+
+	//AObs_Enemigo* NaveEnemigaObserver = GetWorld()->SpawnActor<AObs_Enemigo>(LocationEnemy1, RotationEnemy1);
+	//NaveEnemigaObserver->setTorreControl(MiNaveJugador);
+	
+	
+	//-----------------PATRON STRATEGY----------------------//
+	const FVector LocationEnemy1 = FVector(150.f, 150.f, 50.f);
 	const FRotator RotationEnemy1 = FRotator(0.f, 0.f, 0.f);
 
-	AObs_Enemigo* NaveEnemigaObserver = GetWorld()->SpawnActor<AObs_Enemigo>(LocationEnemy1, RotationEnemy1);
-	NaveEnemigaObserver->setTorreControl(MiNaveJugador);
-	
-	
-	//------------------------------------------------------------------------------------
+	AEnemySpaceship2* NaveEnemy = GetWorld()->SpawnActor<AEnemySpaceship2>(LocationEnemy1, RotationEnemy1);
 
-
+	AStr_EludeStrategy* EludeStrategy = GetWorld()->SpawnActor<AStr_EludeStrategy>(AStr_EludeStrategy::StaticClass());
+	NaveEnemy->AlterManeuvers(EludeStrategy);
 	
 }
 //---------------------PATRON FACTORY METHOD-------------------------//

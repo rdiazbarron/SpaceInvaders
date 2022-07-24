@@ -14,7 +14,7 @@
 
 AEnemySpaceship2::AEnemySpaceship2()
 {
-	RandMove = CreateDefaultSubobject<URandomMovementComponent>(TEXT("RandomMovement"));
+	//RandMove = CreateDefaultSubobject<URandomMovementComponent>(TEXT("RandomMovement"));
 
 	BulletSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("BulletSpawnPoint"));
 	BulletSpawnPoint->SetupAttachment(RootComponent);
@@ -74,6 +74,17 @@ void AEnemySpaceship2::ExploteAndDestroy()
 	}
 
 	Destroy();
+}
+
+void AEnemySpaceship2::AlterManeuvers(IStr_EnemyStrategy* myBattleStrategy)
+{
+	EnemyStrategy = myBattleStrategy;
+	//Log Error if the cast failed
+	if (!EnemyStrategy)
+	{
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red,TEXT("Invalid Cast! See Output log for more details"));UE_LOG(LogTemp, Error, TEXT("AlterManeuvers(): The Actor isnt a BattleShipStrategy! Are you sure that the Actor implements that interface?"));
+	}
+
 }
 
 void AEnemySpaceship2::FireShot()

@@ -41,6 +41,10 @@ private:
 	int time1=0;
 	int timemax = 8;
 
+public:
+
+	
+
 	//PATRON BUILDER
 
 	UPROPERTY(EditAnywhere, Category = "Nave Enemiga Patron Builder")

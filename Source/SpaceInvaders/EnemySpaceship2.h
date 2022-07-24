@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Spaceship.h"
+#include "Str_EnemyStrategy.h"
+#include "RandomMovementComponent.h"
 #include "EnemySpaceship2.generated.h"
 
 /**
@@ -19,6 +21,15 @@ public:
 
 	AEnemySpaceship2();
 
+	IStr_EnemyStrategy* EnemyStrategy;
+
+	UPROPERTY(EditAnywhere)
+		URandomMovementComponent* MovimientoEnemigo1;
+
+	void SetMovimiento(URandomMovementComponent* _RandomMovementComponent) {
+		MovimientoEnemigo1 = _RandomMovementComponent;
+	}
+
 	virtual void Tick(float DeltaSeconds) override;
 
 	virtual void BeginPlay() override;
@@ -28,6 +39,10 @@ public:
 	void ShotTimerExpired();
 
 	void ExploteAndDestroy();
+	//Patron strategy
+
+	void AlterManeuvers(IStr_EnemyStrategy* myBattleStrategy);
+
 
 
 	UPROPERTY(EditAnywhere, Category = "Component")
@@ -54,8 +69,8 @@ public:
 	UPROPERTY(Category = Camera, EditAnywhere, BlueprintReadWrite)
 		float FireRate;//
 
-	UPROPERTY()
-		class URandomMovementComponent* RandMove;
+	//UPROPERTY()
+	//	class URandomMovementComponent* RandMove;
 
 	/*UPROPERTY(EditAnywhere, Category = "Component")
 		TSubclassOf<class AProjectile> Projectile_BP;*/

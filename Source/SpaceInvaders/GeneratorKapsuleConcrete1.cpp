@@ -9,7 +9,7 @@
 AKapsule* AGeneratorKapsuleConcrete1::FabricarCapsula(FString NombreTipoCapsula)
 {
 	
-	int coord1 = FMath::RandRange(1, 2000);
+	int coord1 = FMath::RandRange(1, 200);
 	int coord2 = FMath::RandRange(200, 300);
 	int coord3 = FMath::RandRange(301, 450);
 
